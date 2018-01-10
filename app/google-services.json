@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "228860674333",
+    "firebase_url": "https://android-studio-188107.firebaseio.com",
+    "project_id": "android-studio-188107",
+    "storage_bucket": "android-studio-188107.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228860674333:android:a704a17a7b1f3eeb",
+        "android_client_info": {
+          "package_name": "hotelnow.hotelnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228860674333-4u9dok8b92l2ss27pn93d6as5rqetul2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hotelnow.hotelnow",
+            "certificate_hash": "67926dbd8fa4744c7f4e933768bcc1a004a6dbba"
+          }
+        },
+        {
+          "client_id": "228860674333-1mbbb6m4cpb2uvo11htkdaqik40t2rut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoVm_eHeuVvItwMfY-IuzBRjCcy6U5CQg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228860674333-1mbbb6m4cpb2uvo11htkdaqik40t2rut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
