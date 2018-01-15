@@ -50,6 +50,11 @@ public class ShareActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+            finish();
+    }
+
     /**
      * return the current tab number
      * 0 = GalleryFragment

@@ -118,6 +118,7 @@ public class SearchFragment extends Fragment {
                 Intent intent = new Intent(getActivity(), Webview.class);
                 startActivity(intent);
                 Toast.makeText(getActivity(), "Returning to WebView", Toast.LENGTH_SHORT).show();
+                getActivity().finish();
             }
         });
 
@@ -260,8 +261,6 @@ public class SearchFragment extends Fragment {
         Log.d(TAG, "getFilters: got filters: \ncity: " + mPrefCity + "\nState/Prov: " + mPrefStateProv
                 + "\nCountry: " + mPrefCountry);
     }
-
-
 
 }
 

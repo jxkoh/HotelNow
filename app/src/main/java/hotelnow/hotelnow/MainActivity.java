@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import hotelnow.hotelnow.FirebaseDiary.Login.LoginActivity;
@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init(){
-        Button btnSearch = (Button) findViewById(R.id.btn_search);
-        Button btnHome= (Button) findViewById(R.id.btn_home);
+        ImageButton btnSearch = (ImageButton) findViewById(R.id.btn_search);
+        ImageButton btnHome= (ImageButton) findViewById(R.id.btn_home);
 
 
         btnSearch.setOnClickListener(new View.OnClickListener() {

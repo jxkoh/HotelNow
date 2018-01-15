@@ -70,7 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
         btnReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+                Intent intent = new Intent(RegisterActivity.this, ResetPasswordActivity.class);
                 startActivity(intent);
 //                Toast.makeText(RegisterActivity.this, "Launching Diary Activity", Toast.LENGTH_SHORT).show();
             }
@@ -82,6 +82,7 @@ public class RegisterActivity extends AppCompatActivity {
                 Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                 startActivity(intent);
                 Toast.makeText(RegisterActivity.this, "Redirecting to reset password", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
 

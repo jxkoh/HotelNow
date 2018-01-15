@@ -34,10 +34,6 @@
             android:name=".Webview"
             android:screenOrientation="sensorPortrait" />
 
-        <activity android:name=".AccountActivity.LoginActivityAA" />
-        <activity android:name=".AccountActivity.ResetPasswordActivityAA" />
-        <activity android:name=".AccountActivity.MainActivityAA" />
-        <activity android:name=".AccountActivity.SignupActivityAA" />
 
         <!--Instagram Clone-->
 
@@ -69,6 +65,7 @@
     <!--**********Review Activity**********-->
         <activity android:name=".ReviewActivity.account.LoginActivity"></activity>
         <activity android:name=".ReviewActivity.account.RegisterActivity"></activity>
+        <activity android:name=".ReviewActivity.account.ResetPasswordActivity"></activity>
         <activity android:name=".ReviewActivity.FiltersActivity"></activity>
         <activity android:name=".ReviewActivity.SearchActivity"></activity>
 

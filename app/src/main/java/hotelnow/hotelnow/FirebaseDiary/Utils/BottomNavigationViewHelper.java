@@ -7,11 +7,11 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.util.Log;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 import hotelnow.hotelnow.FirebaseDiary.Home.HomeActivity;
-import hotelnow.hotelnow.FirebaseDiary.Likes.LikesActivity;
 import hotelnow.hotelnow.FirebaseDiary.Profile.ProfileActivity;
 import hotelnow.hotelnow.FirebaseDiary.Search.SearchActivity;
 import hotelnow.hotelnow.FirebaseDiary.Share.ShareActivity;
@@ -59,9 +59,12 @@ public class BottomNavigationViewHelper {
                         break;
 
                     case R.id.ic_alert:
-                        Intent intent4 = new Intent(context, LikesActivity.class);//ACTIVITY_NUM = 3
-                        context.startActivity(intent4);
-                        callingActivity.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+//                        Intent intent4 = new Intent(context, LikesActivity.class);//ACTIVITY_NUM = 3
+//                        context.startActivity(intent4);
+//                        callingActivity.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+
+                        Toast.makeText(context, "Currently Unavailable.", Toast.LENGTH_SHORT).show();
+                        
                         break;
 
                     case R.id.ic_android:

@@ -1,6 +1,7 @@
 package hotelnow.hotelnow.ReviewActivity;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -11,10 +12,10 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.widget.Button;
 
 import hotelnow.hotelnow.R;
 import hotelnow.hotelnow.ReviewActivity.util.SectionsPagerAdapter;
+import hotelnow.hotelnow.Webview;
 
 
 public class SearchActivity extends AppCompatActivity {
@@ -25,7 +26,6 @@ public class SearchActivity extends AppCompatActivity {
     //widgets
     private TabLayout mTabLayout;
     public ViewPager mViewPager;
-    private Button btnBack;
 
     //vars
     public SectionsPagerAdapter mPagerAdapter;
@@ -38,6 +38,7 @@ public class SearchActivity extends AppCompatActivity {
         mViewPager  = (ViewPager) findViewById(R.id.viewpager_container);
 
         verifyPermissions();
+
 
 }
 
@@ -82,6 +83,12 @@ public class SearchActivity extends AppCompatActivity {
         verifyPermissions();
     }
 
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(SearchActivity.this, Webview.class);
+        startActivity(intent);
+
+    }
 }
 
 

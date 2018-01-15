@@ -37,6 +37,7 @@ public class CameraFragment extends Fragment {
                 Intent intent = new Intent(getActivity(), MainActivity.class);
                 startActivity(intent);
                 Toast.makeText(getActivity(), "Returning to Previous Activity", Toast.LENGTH_SHORT).show();
+                getActivity().finish();
             }
         });
 
